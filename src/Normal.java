@@ -4,6 +4,6 @@ public class Normal extends Ingresso{
         super(valor);
     }
     public void ingressoNormal(){
-        System.out.println("O valor do ingresso normal é " +getValor());
+        System.out.printf("O valor do ingresso normal é %.2f R$ \n",getValor());
     }
 }

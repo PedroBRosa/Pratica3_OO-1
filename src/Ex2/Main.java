@@ -27,6 +27,10 @@ public class Main {
                 FComissionado fComissionado = new FComissionado(matricula,salario,nome,percentual,vendas);
             case 3:
                 System.out.println("PRODUTIVIDADE");
+                System.out.println("Escreva o Valor: ");
+                valor = ler.nextDouble();
+                System.out.println("Escreva a Produção: ");
+                producao = ler.nextInt();
                 FProdutividade fProdutividade = new FProdutividade(matricula,salario,nome,valor,producao);
             default:
                 System.out.println("Opção Invalida");

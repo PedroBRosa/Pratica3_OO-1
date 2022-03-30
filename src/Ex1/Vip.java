@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Vip extends Ingresso {
     private double valorAd;
     public Vip(double valor, double valorAd) {
@@ -7,6 +9,6 @@ public class Vip extends Ingresso {
 
     public void ingressoVip(){
         double valorVip = valorAd+getValor();
-        System.out.printf("O valor do Ingresso Vip é: %.2f R$  \n",valorVip);
+        System.out.printf("O valor do Ex1.Ingresso Ex1.Vip é: %.2f R$  \n",valorVip);
     }
 }

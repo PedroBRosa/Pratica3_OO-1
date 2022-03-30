@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Camarote extends Ingresso {
     private double valorAd;
     private String local;
@@ -9,6 +11,6 @@ public class Camarote extends Ingresso {
     }
     public void ingressoCamarote(){
         double valorCamarote = valorAd+getValor();
-        System.out.printf("O local do camarote é %s e o valor do Ingresso é %.2f R$ \n",local,valorCamarote);
+        System.out.printf("O local do camarote é %s e o valor do Ex1.Ingresso é %.2f R$ \n",local,valorCamarote);
     }
 }

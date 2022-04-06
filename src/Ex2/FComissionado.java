@@ -11,6 +11,7 @@ public class FComissionado extends Funcionario{
     }
 
     public double calcularProventos() {
-        return 0;
+        setSalario(getSalario()+(percentual*vendas));
+        return getSalario();
     }
 }

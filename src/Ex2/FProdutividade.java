@@ -11,6 +11,7 @@ public class FProdutividade extends Funcionario {
     }
 
     public double calcularProventos() {
-        return 0;
+        setSalario(getSalario()+(valor*producao));
+        return getSalario();
     }
 }

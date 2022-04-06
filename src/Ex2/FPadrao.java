@@ -6,6 +6,7 @@ public class FPadrao extends Funcionario{
     }
 
     public double calcularProventos() {
-        return 0;
+        return getSalario();
     }
+
 }
